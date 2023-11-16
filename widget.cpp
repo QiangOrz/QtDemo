@@ -7,6 +7,7 @@ Widget::Widget(QWidget *parent)
 {
     ui->setupUi(this);
     ui->pushButton->setText("123");
+    ui->pushButton->resize(100,100);
 }
 
 Widget::~Widget()
